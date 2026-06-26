@@ -16,7 +16,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = MeleeMultiplier.ModName;
     public override string Author { get; init; } = "HioP";
     public override List<string>? Contributors { get; init; }
-    public override Version Version { get; init; } = new("0.0.2");
+    public override Version Version { get; init; } = new("0.0.3");
     public override Range SptVersion { get; init; } = new("~4.0.7");
 
 
@@ -27,7 +27,7 @@ public record ModMetadata : AbstractModMetadata
     public override string? License { get; init; } = "MIT";
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader)]
+[Injectable(TypePriority = OnLoadOrder.PostSptModLoader)]
 public class MeleeMultiplierOnLoad(
     ISptLogger<MeleeMultiplierOnLoad> logger,
     MeleeMultiplier meleeMultiplier,

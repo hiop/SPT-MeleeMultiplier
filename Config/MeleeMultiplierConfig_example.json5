@@ -1,6 +1,7 @@
 {
   "meleeDamageMultiplier": 10,
   "excludedMeleeItems": [
-    "6087e570b998180e9f76dc24" // Tagillas Superfors DB 2020 Dead Blow Hammer
+    "6087e570b998180e9f76dc24", // Tagillas Superfors DB 2020 Dead Blow Hammer
+    "5fc64ea372b0dd78d51159dc" // Сultist knife
   ],
 }

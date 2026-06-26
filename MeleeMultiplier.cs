@@ -40,7 +40,7 @@ public class MeleeMultiplier(
                 _config = new MeleeMultiplierConfig()
                 {
                     MeleeDamageMultiplier = 10,
-                    ExcludedMeleeItems = ["6087e570b998180e9f76dc24"]
+                    ExcludedMeleeItems = ["6087e570b998180e9f76dc24","5fc64ea372b0dd78d51159dc"]
                 };
                 
                 var fileInfo = new FileInfo(_configPath);
